@@ -27,7 +27,7 @@ function SubmitForm(event) {
         let res = await response.json();
         console.log(res);
         alert(
-          `Na Vaš zahtev će biti odgovoreno u najbržem mogućem roku. Hvala na poverenju!`
+          `On your request, we will respond as soon as possible. Thank you for your trust!`
         );
       })
       .catch((error) => {

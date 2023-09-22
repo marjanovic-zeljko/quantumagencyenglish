@@ -6,7 +6,9 @@
 body {
   scroll-behavior: smooth;
 }
-
+strong {
+  font-size: 29px;
+}
 /* button to top start */
 #myBtn {
   display: none; /* Hidden by default */
@@ -172,7 +174,7 @@ body {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 a {
@@ -356,6 +358,9 @@ section {
   color: #224b79;
   max-width: 700px;
   text-align: center;
+  font-weight: 600;
+    font-size: 24px;
+
 }
 /* carousel project end */
 
@@ -502,6 +507,8 @@ flex-direction: column;
   margin-top: 50px ;
   margin-bottom: 50px;
   border-radius: 20px;
+  
+
 }
 
 .offer-medium {
@@ -514,6 +521,10 @@ flex-direction: column;
   margin-top: 50px ;
   margin-bottom: 50px;
   border-radius: 20px;
+  box-shadow: 10px 10px 12px -3px rgba(233,145,66,0.67);
+
+
+
 }
 
 .offer-medium .popular {
@@ -529,6 +540,8 @@ flex-direction: column;
     clip-path: polygon(20% 0%, 71% 0%, 100% 99%, 0 100%);
   box-shadow: 3px 3px 9px 0px rgba(0,0,0,1);
   font-family: "Ubuntu", sans-serif;
+  
+
   
 
 }
@@ -591,7 +604,9 @@ flex-direction: column;
 .offer-btn-wrapper .offer-btn {
   font-family: "Montserrat", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    background: center;
+    color: white;
+    font-weight: 600;
     margin: 5px 0;
     padding: 8px 10px;
     border-radius: 20px;
